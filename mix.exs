@@ -30,6 +30,7 @@ defmodule GraphqlTest.Mixfile do
         :postgrex,
         :absinthe,
         :absinthe_plug,
+        :absinthe_relay,
         :absinthe_ecto,
         :poison,
         :faker
@@ -56,6 +57,7 @@ defmodule GraphqlTest.Mixfile do
       {:cowboy, "~> 1.0"},
       {:absinthe, "~> 1.2.0"},
       {:absinthe_plug, "~> 1.1"},
+      {:absinthe_relay, "~> 1.2.0"},
       {:absinthe_ecto, git: "https://github.com/absinthe-graphql/absinthe_ecto.git"},
       {:poison, "~> 2.0"},
       {:faker, github: "igas/faker"},
