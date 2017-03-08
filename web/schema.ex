@@ -1,5 +1,6 @@
 defmodule GraphqlTest.Schema do
   use Absinthe.Schema
+  use Absinthe.Relay.Schema
   import_types GraphqlTest.Schema.Types
 
   # 查询定义
